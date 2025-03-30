@@ -1,0 +1,109 @@
+html {
+    background-image:url("./images/cityscape.jpeg");
+    background-size:cover;
+    width: 100vw;
+    background-position: center;
+    height: 100vh;  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) , url("./images/cityscape.jpeg");
+}
+
+#cardHolder {
+    margin:auto;
+    width:80%;
+    text-align:center;
+}
+
+.card {
+    background: #691414;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    display:inline-block;
+    width:125px;
+    border-radius:10px;
+    margin:5px;
+    align-items:center;
+    border-top: 5px solid #450d0d;
+}
+ 
+.card h1 {
+    padding-top:0px;
+    font-size:14px;
+    font-weight:normal;
+    text-align:center;
+}
+
+.card p {
+    font-size:13px;
+    line-height:20px;
+}
+
+.card h1:hover, p:hover {
+    cursor:text;
+}
+
+hr {
+    height:1px;
+    /* color: white; */
+    /* background: white; */
+    font-size: 0;
+    border:0px;
+    border-top: 1px dotted white;
+}
+/* 
+card[contenteditable="true"]:active {
+    border:3px solid green;
+} */
+
+[contenteditable="true"]:active,
+[contenteditable="true"]:focus{
+    border:none;
+    outline:none;
+}
+
+
+#addCardButton {
+    background-color:#831a1a;
+    color:white;
+    border-width: 2px;
+    border-style:solid;
+    border-color:white;
+    border-top-width:0px;
+    border-left-width:0px;
+    border-radius:10px;
+    padding: 10px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:15px;
+    font-size:20px;
+    margin:5px;
+    position: absolute;
+    bottom:10px;
+    right:10px;
+    font-family:verdana;
+}
+
+#addCardButton:hover {
+    background-color:#691414;
+}
+
+#addCardButton:active {
+    border-bottom-width:1px;
+    border-right-width:1px;
+    background-color:#691414;
+}
+
+h1 {
+    color:white;
+    font:Verdana;
+    font-size: 30px;
+    text-align:center;
+}
+
+[draggable=true] {
+    cursor: grab;
+}
+  

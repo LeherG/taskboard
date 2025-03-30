@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>todo listzies</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 contenteditable="true">New Board</h1>
+        
+        <div id = "cardHolder">
+            <div class = "card" draggable = "true">
+                <h1 contenteditable="true">item</h1>
+                <hr>
+                <p contenteditable="true">desc</p>
+            </div>
+
+            <div class = "card" draggable = "true">
+                <h1 contenteditable="true">item 2</h1>
+                <hr>
+                <p contenteditable="true">desc 2</p>
+            </div>
+
+            <div class = "card" draggable = "true">
+                <h1 contenteditable="true">item 3</h1>
+                <hr>
+                <p contenteditable="true">desc 3<br>desc more</p>
+            </div>
+        </div>
+
+        <button id = "addCardButton" onclick = "newCard()">+</button>
+        <script type="text/javascript" src="script.js"></script>
+
+    </body>
+</html>
