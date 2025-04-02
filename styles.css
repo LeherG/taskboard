@@ -8,6 +8,7 @@ html {
 }
 
 #cardHolder {
+    /* align-items:center; */
     margin:auto;
     width:80%;
     text-align:center;
@@ -25,6 +26,7 @@ html {
     width:125px;
     border-radius:10px;
     margin:5px;
+    vertical-align:top;
     align-items:center;
     border-top: 5px solid #450d0d;
 }

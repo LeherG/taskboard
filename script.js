@@ -23,3 +23,9 @@ function newCard() {
 
     document.getElementsByTagName('body')[0].appendChild(cardHolder);
 };
+
+
+// const draggableElement = document.querySelector('[draggable="true"]');
+// draggableElement.addEventListener('dragstart', (event) => {
+//   event.dataTransfer.setData('text/plain', event.target.id);
+// });
