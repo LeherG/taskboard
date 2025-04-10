@@ -1,3 +1,20 @@
+/* 
+need to fix:
+
+- when more cards are present than the screen covers 
+(just try making a LOT of cards such that they extend
+beyond the visible screen and you have to scroll), the
+background is just plain white. consider making a color 
+picker so user can pick what they'd like or add some image 
+under.
+
+- get it so cards are vertically under each other.
+
+- make card borders adjustable.
+
+*/
+
+
 html {
     background-image:url("./images/cityscape.jpeg");
     background-size:cover;
@@ -5,6 +22,7 @@ html {
     background-position: center;
     height: 100vh;  
     background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) , url("./images/cityscape.jpeg");
+    background-repeat: no-repeat;
 }
 
 #cardHolder {
@@ -36,6 +54,10 @@ html {
     font-size:14px;
     font-weight:normal;
     text-align:center;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+
 }
 
 .card p {
